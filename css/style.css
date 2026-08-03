@@ -182,8 +182,7 @@ section { padding: 90px 0; }
   margin-bottom: 48px;
 }
 
-.services .section-title,
-.testimonials .section-title { text-align: center; }
+.services .section-title { text-align: center; }
 
 /* ---------- Servicios ---------- */
 .services { background: var(--white); }
@@ -256,23 +255,6 @@ section { padding: 90px 0; }
   font-size: 0.85rem;
   color: var(--gray-600);
 }
-
-/* ---------- Testimonios ---------- */
-.testimonials__grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
-}
-
-.testimonial {
-  background: var(--white);
-  border: 1px solid var(--gray-300);
-  border-radius: var(--radius);
-  padding: 28px;
-}
-
-.testimonial p { color: var(--gray-900); margin-bottom: 16px; font-style: italic; }
-.testimonial footer { color: var(--accent); font-weight: 600; font-size: 0.9rem; }
 
 /* ---------- Contacto ---------- */
 .contact { background: var(--navy-900); color: var(--white); }
@@ -353,8 +335,7 @@ section { padding: 90px 0; }
   .about__inner,
   .contact__inner { grid-template-columns: 1fr; }
 
-  .services__grid,
-  .testimonials__grid { grid-template-columns: 1fr 1fr; }
+  .services__grid { grid-template-columns: 1fr 1fr; }
 
   .hero__media { order: -1; }
 }
@@ -380,7 +361,6 @@ section { padding: 90px 0; }
   .hero h1 { font-size: 2rem; }
 
   .services__grid,
-  .testimonials__grid,
   .about__stats { grid-template-columns: 1fr; }
 
   .footer__inner { flex-direction: column; text-align: center; }
