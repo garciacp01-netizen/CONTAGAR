@@ -232,7 +232,7 @@ section { padding: 90px 0; }
 
 .about__stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
 
@@ -244,11 +244,12 @@ section { padding: 90px 0; }
   box-shadow: var(--shadow);
 }
 
-.stat__number {
+.stat__name {
   display: block;
-  font-size: 1.8rem;
-  font-weight: 800;
+  font-size: 1.1rem;
+  font-weight: 700;
   color: var(--navy-900);
+  margin-bottom: 4px;
 }
 
 .stat__label {
